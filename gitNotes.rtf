@@ -28,4 +28,23 @@ git config --global user.name "testingshilpa13"\
 Now lets make a file in the folder\
 Git status >> status dikhega ki changes h pr commit nhi huge h \
 To add the changes\
-Git add filename or git add *.txt or git add .}
+Git add filename or git add *.txt or git add . (Stage all the changes to track)\
+After adding the file commit to main branch\
+Git commit -m \'93gitFile.txt\'94 >> no changes will be seen on GitHub repository\
+\
+Need to connect repository and push changes to the repository url to origin\
+Git remote add origin urlOFRepository\
+To verify : git remote show origin >> it will show path of repository\
+Now we can push the changes to GitHub\
+Git push -u origin master >> when it was our 1st push command to repo, it is not master it is main\
+Git push -u main\
+Enter username and password (or generate token(classic)\
+\
+Git log >> show all changes\
+\
+Create branches to not make changes on main branches >> if everything works fine then merge code to main\
+Git branch branch name\
+Git branch >> give list of all the branches\
+Git checkout newbranch >> focus move from main to newBranch\
+\
+}
